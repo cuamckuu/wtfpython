@@ -21,6 +21,7 @@ Following are the wonderful people (in no specific order) who have contributed t
 | Ghost account | N/A | [#96](https://github.com/satwikkansal/wtfpython/issues/96)
 | koddo | [koddo](https://github.com/koddo) | [#80](https://github.com/satwikkansal/wtfpython/issues/80), [#73](https://github.com/satwikkansal/wtfpython/issues/73) |
 | jab | [jab](https://github.com/jab) | [#77](https://github.com/satwikkansal/wtfpython/issues/77) |
+| cuamckuu | [cuamckuu](https://github.com/cuamckuu) | https://github.com/satwikkansal/wtfpython/issues/118 |
 
 
 Thank you all for your time and making wtfpython more awesome! :smile:
