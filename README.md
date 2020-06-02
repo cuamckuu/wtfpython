@@ -2,6 +2,7 @@
 
 
 
+
 <p align="center"><img src="/images/logo.png" alt=""></p>
 <h1 align="center">Какого Чёрта, Python! 😱</h1>
 <p align="center">Изучаем и понимаем Python с помощью удивительных примеров.</p>
@@ -24,9 +25,6 @@ PS: О новых изменениях в проекте можно узнать
 
 # Содержание
 
-<!-- Generated using "markdown-toc -i README.md --maxdepth 3"-->
-
-<!-- toc -->
 
 - [Структура примеров](#структура-примеров)
     + [▶ Какое-то причудливое название](#▶-какое-то-причудливое-название)
@@ -103,7 +101,6 @@ PS: О новых изменениях в проекте можно узнать
   * [Surprise your friends as well!](#surprise-your-friends-as-well)
   * [More content like this?](#more-content-like-this)
 
-<!-- tocstop -->
 
 # Структура примеров
 
@@ -164,8 +161,6 @@ $ wtfpython
 
 ### ▶ Перво-наперво! *
 
-<!-- Example ID: d3d73936-3cf1-4632-b5ab-817981338863 -->
-<!-- read-only -->
 
 По какой-то причине в Python 3.8 оператор "Walrus" (`:=`) стал довольно популярен. Давайте проверим его.
 
@@ -282,7 +277,6 @@ if a := some_func():
 
 ### ▶ Иногда строки могут быть хитрыми
 
-<!-- Example ID: 30f1d3fc-e267-4b30-84ef-4d9e7091ac1a --->
 1\.
 
 ```py
@@ -358,7 +352,6 @@ False
 
 
 ### ▶ Осторожнее с цепочками операций
-<!-- Example ID: 07974979-9c86-4720-80bd-467aa19470d9 --->
 ```py
 >>> (False == False) in [False] # имеет смысл
 False
@@ -403,7 +396,6 @@ False
 ---
 
 ### ▶ Как не надо использовать оператор `is`
-<!-- Example ID: 230fa2ac-ab36-4ad1-b675-5f5a1c1a6217 --->
 Ниже приведён очень известный пример, который часто встречается в интернете.
 
 1\.
@@ -527,7 +519,6 @@ False
 
 
 ### ▶ Мистика хэширования
-<!-- Example ID: eb17db53-49fd-4b61-85d6-345c5ca213ff --->
 1\.
 ```py
 some_dict = {}
@@ -593,7 +584,6 @@ complex
 ---
 
 ### ▶ В глубине души мы все одинаковые
-<!-- Example ID: 8f99a35f-1736-43e2-920d-3b78ec35da9b --->
 ```py
 class WTF:
   pass
@@ -643,7 +633,6 @@ True
 ---
 
 ### ▶ Беспорядок в порядке *
-<!-- Example ID: 91bff1f8-541d-455a-9de4-6cd8ff00ea66 --->
 ```py
 from collections import OrderedDict
 
@@ -741,7 +730,6 @@ TypeError: unhashable type: 'dict'
 ---
 
 ### ▶ Продолжай пытаться... *
-<!-- Example ID: b4349443-e89f-4d25-a109-82616be9d41a --->
 ```py
 def some_func():
     try:
@@ -802,7 +790,6 @@ Iteration 0
 
 
 ### ▶ For what?
-<!-- Example ID: 64a9dccf-5083-4bc9-98aa-8aeecde4f210 --->
 ```py
 some_string = "wtf"
 some_dict = {}
@@ -855,7 +842,6 @@ for i, some_dict[i] in enumerate(some_string):
 ---
 
 ### ▶ Evaluation time discrepancy
-<!-- Example ID: 6aa11a4b-4cf1-467a-b43a-810731517e98 --->
 1\.
 ```py
 array = [1, 8, 15]
@@ -924,7 +910,6 @@ array_4 = [400, 500, 600]
 
 
 ### ▶ `is not ...` это не `is (not ...)`
-<!-- Example ID: b26fb1ed-0c7d-4b9c-8c6d-94a58a055c0d --->
 ```py
 >>> 'something' is not None
 True
@@ -941,7 +926,6 @@ False
 ---
 
 ### ▶ Крестики-нолики, где Х выигрывает с первой попытки!
-<!-- Example ID: 69329249-bdcb-424f-bd09-cca2e6705a7a --->
 
 ```py
 # Инициализируем ряд двумерной доски
@@ -988,7 +972,6 @@ board = [row] * 3
 ---
 
 ### ▶ Липкий вывод
-<!-- Example ID: 4dc42f77-94cb-4eb5-a120-8203d3ed7604 --->
 
 1\.
 
@@ -1045,7 +1028,6 @@ funcs_results = [func() for func in funcs]
 ---
 
 ### ▶ Проблема курицы и яйца *
-<!-- Example ID: 60730dc2-0d79-4416-8568-2a63323b3ce8 --->
 1\.
 ```py
 >>> isinstance(3, int)
@@ -1095,7 +1077,6 @@ False
 ---
 
 ### ▶ Отношение подкласса
-<!-- Example ID: 9f6d8cf0-e1b5-42d0-84a0-4cfab25a0bc0 --->
 **Вывод:**
 ```py
 >>> from collections import Hashable
@@ -1120,7 +1101,6 @@ False
 
 ### ▶ Вся правда *
 
-<!-- Example ID: dfe6d845-e452-48fe-a2da-0ed3869a8042 -->
 
 ```py
 >>> all([True, True, True])
@@ -1156,7 +1136,6 @@ True
 ---
 
 ### ▶ Внезапная запятая
-<!-- Example ID: 31a819c8-ed73-4dcc-84eb-91bedbb51e58 --->
 **Вывод (< 3.6):**
 
 ```py
@@ -1188,7 +1167,6 @@ SyntaxError: invalid syntax
 ---
 
 ### ▶ Строки и бекслэши
-<!-- Example ID: 6ae622c3-6d99-4041-9b33-507bd1a4407b --->
 **Вывод:**
 ```py
 >>> print("\"")
@@ -1231,7 +1209,6 @@ True
 ---
 
 ### ▶ не узел!
-<!-- Example ID: 7034deb1-7443-417d-94ee-29a800524de8 --->
 ```py
 x = True
 y = False
@@ -1258,7 +1235,6 @@ SyntaxError: invalid syntax
 ---
 
 ### ▶ Половина строки в тройных кавычках
-<!-- Example ID: c55da3e2-1034-43b9-abeb-a7a970a2ad9e --->
 **Вывод:**
 ```py
 >>> print('wtfpython''')
@@ -1287,7 +1263,6 @@ SyntaxError: EOF while scanning triple-quoted string literal
 ---
 
 ### ▶ Что не так с логикой?
-<!-- Example ID: 0bba5fa7-9e6d-4cd2-8b94-952d061af5dd --->
 1\.
 
 ```py
@@ -1377,7 +1352,6 @@ I have lost faith in truth!
 ---
 
 ### ▶ Аттрибуты класса и экземпляра
-<!-- Example ID: 6f332208-33bd-482d-8106-42863b739ed9 --->
 1\.
 ```py
 class A:
@@ -1448,7 +1422,6 @@ True
 
 ### ▶ Нерефлексивный метод класса *
 
-<!-- Example ID: 3649771a-f733-413c-8060-3f9f167b83fd -->
 
 ```py
 	class SomeClass:
@@ -1490,7 +1463,6 @@ True
 
 
 ### ▶ Генерируя пустоты
-<!-- Example ID: 5a40c241-2c30-40d0-8ba9-cf7e097b3b53 --->
 ```py
 some_iterable = ('a', 'b')
 
@@ -1523,7 +1495,6 @@ def some_func(val):
 
 
 ### ▶ Yielding from... вернёт! *
-<!-- Example ID: 5626d8ef-8802-49c2-adbc-7cda5c550816 --->
 1\.
 
 ```py
@@ -1565,13 +1536,13 @@ def some_func(x):
 
 #### 💡 Объяснение:
 
-+ Начиная с Python 3.3 стало возможным использовать `return` со значениями внутри генераторов (Смотри [PEP380](https://www.python.org/dev/peps/pep-0380/)). [Официальная документация](https://www.python.org/dev/peps/pep-0380/#enhancements-to-stopiteration) говорит, что
++ Начиная с Python 3.3 стало возможным использовать `return` внутри генераторов (Смотри [PEP380](https://www.python.org/dev/peps/pep-0380/)). [Официальная документация](https://www.python.org/dev/peps/pep-0380/#enhancements-to-stopiteration) говорит, что
 
 > "... `return expr` in a generator causes `StopIteration(expr)` to be raised upon exit from the generator."
 
 + В случае с `some_func(3)`,  бросается исключение `StopIteration` в самом начале из-за `return`. Исключение `StopIteration` автоматически отлавливается внутри обёртки `list(...)` и цикла `for` . Поэтому оба примера выше возвращают пустые списки.
 
-+ Чтобы получить `["wtf"]` из генератора `some_func` we need to catch the `StopIteration` exception,
++ Чтобы получить `["wtf"]` из генератора `some_func`, нам нужно поймать исключение `StopIteration`,
 
   ```py
   try:
@@ -1587,9 +1558,7 @@ def some_func(x):
 
 ---
 
-### ▶ Nan-reflexivity *
-
-<!-- Example ID: 59bee91a-36e0-47a4-8c7d-aa89bf1d3976 --->
+### ▶ NaN-рефлексивность
 
 1\.
 
@@ -1630,7 +1599,7 @@ nan
 ```py
 >>> x = float('nan')
 >>> y = x / x
->>> y is y # identity holds
+>>> y is y # Сохраняется идентичность
 True
 >>> y == y # сравнение не работает для переменной y
 False
@@ -1642,9 +1611,9 @@ True
 
 #### 💡 Объяснение:
 
-- `'inf'` and `'nan'` are special strings (case-insensitive), which, when explicitly typecast-ed to `float` type, are used to represent mathematical "infinity" and "not a number" respectively.
+- `'inf'` и `'nan'` являютя специальными строками (регистро-независимыми), которые, при приведении к типу `float`, используются для представления  "бесконечности" и "не числа" соответственно.
 
-- Since according to IEEE standards ` NaN != NaN`, obeying this rule breaks the reflexivity assumption of a collection element in Python i.e. if `x` is a part of a collection like `list`, the implementations like comparison are based on the assumption that `x == x`.  Because of this assumption, the identity is compared first (since it's faster) while comparing two elements, and the values are compared only when the identities mismatch. The following snippet will make things clearer,
+- Согласно стандарту IEEE  `NaN != NaN`, соблюдение этого правила ломает рефлексивность элемента в коллекции в Python. Другими словами, если `x` это элемент коллекции, к примеру `list`, тогда некоторые операции, например сравнение, основываются на предположении, что `x == x`. Из-за этого предположения, сначала проверяется идентичность оператором `is` (так как это быстрее), а равенство проверяется только при получении неидентичной пары элементов. Следующий фрагмент кода проясняет ситуацию,
 
   ```py
   >>> x = float('nan')
@@ -1657,17 +1626,15 @@ True
   (False, False)
   ```
 
-  Since the identities of `x` and `y` are different, the values are considered, which are also different; hence the comparison returns `False` this time.
+  Так как `x` неидентичен `y` (`(x is y) == False`), сравниваются значения, которые не равны, поэтому возвращается `False`.
 
-- Interesting read: [Reflexivity, and other pillars of civilization](https://bertrandmeyer.com/2010/02/06/reflexivity-and-other-pillars-of-civilization/)
+- Интересная статья: [Рефлексивность и прочие столпы цивилизации](https://bertrandmeyer.com/2010/02/06/reflexivity-and-other-pillars-of-civilization/)
 
 ---
 
-### ▶ Mutating the immutable!
+### ▶ Изменяя неизменяемое!
 
-<!-- Example ID: 15a9e782-1695-43ea-817a-a9208f6bb33d --->
-
-This might seem trivial if you know how references work in Python.
+Это может показаться тривиальным, если знать, как работают ссылки в Python.
 
 ```py
 some_tuple = ("A", "tuple", "with", "values")
@@ -1678,7 +1645,7 @@ another_tuple = ([1, 2], [3, 4], [5, 6])
 ```py
 >>> some_tuple[2] = "change this"
 TypeError: 'tuple' object does not support item assignment
->>> another_tuple[2].append(1000) #This throws no error
+>>> another_tuple[2].append(1000) # Ошибки не будет
 >>> another_tuple
 ([1, 2], [3, 4], [5, 6, 1000])
 >>> another_tuple[2] += [99, 999]
@@ -1691,17 +1658,16 @@ But I thought tuples were immutable...
 
 #### 💡 Объяснение:
 
-* Quoting from https://docs.python.org/2/reference/datamodel.html
+* Цитата из [документации](https://docs.python.org/2/reference/datamodel.html)
 
     > Immutable sequences
         An object of an immutable sequence type cannot change once it is created. (If the object contains references to other objects, these other objects may be mutable and may be modified; however, the collection of objects directly referenced by an immutable object cannot change.)
 
-* `+=` operator changes the list in-place. The item assignment doesn't work, but when the exception occurs, the item has already been changed in place.
+* Оператор `+=` изменяет существующий список. Присваивание не срабатывает, но к моменту исключения, существующий список уже был изменён.
 
 ---
 
 ### ▶ The disappearing variable from outer scope
-<!-- Example ID: 7f1e71b6-cb3e-44fb-aa47-87ef1b7decc8 --->
 
 ```py
 e = 7
@@ -1783,7 +1749,6 @@ NameError: name 'e' is not defined
 
 
 ### ▶ The mysterious key type conversion
-<!-- Example ID: 00f42dd0-b9ef-408d-9e39-1bc209ce3f36 --->
 ```py
 class SomeClass(str):
     pass
@@ -1839,7 +1804,6 @@ str
 ---
 
 ### ▶ Let's see if you can guess this?
-<!-- Example ID: 81aa9fbe-bd63-4283-b56d-6fdd14c9105e --->
 ```py
 a, b = a[b] = {}, 5
 ```
@@ -1899,7 +1863,6 @@ a, b = a[b] = {}, 5
 ## Секция: Slippery Slopes
 
 ### ▶ Modifying a dictionary while iterating over it
-<!-- Example ID: b4e5cdfb-c3a8-4112-bd38-e2356d801c41 --->
 ```py
 x = {0: None}
 
@@ -1935,8 +1898,6 @@ Yes, it runs for exactly **eight** times and stops.
 ---
 
 ### ▶ Stubborn `del` operation
-<!-- Example ID: 777ed4fd-3a2d-466f-95e7-c4058e61d78e --->
-<!-- read-only -->
 
 ```py
 class SomeClass:
@@ -1980,7 +1941,6 @@ Okay, now it's deleted :confused:
 ---
 
 ### ▶ The out of scope variable
-<!-- Example ID: 75c03015-7be9-4289-9e22-4f5fdda056f7 --->
 ```py
 a = 1
 def some_func():
@@ -2019,7 +1979,6 @@ UnboundLocalError: local variable 'a' referenced before assignment
 ---
 
 ### ▶ Deleting a list item while iterating
-<!-- Example ID: 4cc52d4e-d42b-4e09-b25f-fbf5699b7d4e --->
 ```py
 list_1 = [1, 2, 3, 4]
 list_2 = [1, 2, 3, 4]
@@ -2080,7 +2039,6 @@ Can you guess why the output is `[2, 4]`?
 
 
 ### ▶ Lossy zip of iterators *
-<!-- Example ID: c28ed154-e59f-4070-8eb6-8967a4acac6d --->
 
 ```py
 >>> numbers = list(range(7))
@@ -2129,7 +2087,6 @@ Where did element `3` go from the `numbers` list?
 ---
 
 ### ▶ Loop variables leaking out!
-<!-- Example ID: ccec7bf6-7679-4963-907a-1cd8587be9ea --->
 1\.
 ```py
 for x in range(7):
@@ -2193,7 +2150,6 @@ print(x, ': x in global')
 ---
 
 ### ▶ Beware of default mutable arguments!
-<!-- Example ID: 7d42dade-e20d-4a7b-9ed7-16fb58505fe9 --->
 
 ```py
 def some_func(default_arg=[]):
@@ -2251,7 +2207,6 @@ def some_func(default_arg=[]):
 ---
 
 ### ▶ Catching the Exceptions
-<!-- Example ID: b5ca5e6a-47b9-4f69-9375-cda0f8c6755d --->
 ```py
 some_list = [1, 2, 3]
 try:
@@ -2326,7 +2281,6 @@ SyntaxError: invalid syntax
 ---
 
 ### ▶ Same operands, different story!
-<!-- Example ID: ca052cdf-dd2d-4105-b936-65c28adc18a0 --->
 1\.
 ```py
 a = [1, 2, 3, 4]
@@ -2368,7 +2322,6 @@ a += [5, 6, 7, 8]
 ---
 
 ### ▶ Name resolution ignoring class scope
-<!-- Example ID: 03f73d96-151c-4929-b0a8-f74430788324 --->
 1\.
 ```py
 x = 5
@@ -2412,7 +2365,6 @@ class SomeClass:
 
 ### ▶ Needles in a Haystack *
 
-<!-- Example ID: 52a199b1-989a-4b28-8910-dff562cebba9 --->
 
 I haven't met even a single experience Pythonist till date who has not come across one or more of the following scenarios,
 
@@ -2588,7 +2540,6 @@ def similar_recursive_func(a):
 
 
 ### ▶ Splitsies *
-<!-- Example ID: ec3168ba-a81a-4482-afb0-691f1cc8d65a --->
 ```py
 >>> 'a'.split()
 ['a']
@@ -2624,8 +2575,6 @@ def similar_recursive_func(a):
 ---
 
 ### ▶ Wild imports *
-<!-- Example ID: 83deb561-bd55-4461-bb5e-77dd7f411e1c --->
-<!-- read-only -->
 
 ```py
 # File: module.py
@@ -2684,7 +2633,6 @@ NameError: name '_another_weird_name_func' is not defined
 
 ### ▶ All sorted? *
 
-<!-- Example ID: e5ff1eaf-8823-4738-b4ce-b73f7c9d5511 -->
 
 ```py
 >>> x = 7, 8, 9
@@ -2724,7 +2672,6 @@ False
 ---
 
 ### ▶ Midnight time doesn't exist?
-<!-- Example ID: 1bce8294-5619-4d70-8ce3-fe0bade690d1 --->
 ```py
 from datetime import datetime
 
@@ -2762,7 +2709,6 @@ Before Python 3.5, the boolean value for `datetime.time` object was considered t
 This section contains a few lesser-known and interesting things about Python that most beginners like me are unaware of (well, not anymore).
 
 ### ▶ Okay Python, Can you make me fly?
-<!-- Example ID: a92f3645-1899-4d50-9721-0031be4aec3f --->
 Well, here you go
 
 ```py
@@ -2780,7 +2726,6 @@ Sshh... It's a super-secret.
 ---
 
 ### ▶ `goto`, but why?
-<!-- Example ID: 2aff961e-7fa5-4986-a18a-9e5894bd89fe --->
 
 ```py
 from goto import goto, label
@@ -2809,7 +2754,6 @@ Freedom!
 ---
 
 ### ▶ Brace yourself!
-<!-- Example ID: 5c0c75f2-ddd9-4da3-ba49-c4be7ec39acf --->
 If you are one of the people who doesn't like using whitespace in Python to denote scopes, you can use the C-style {} by importing,
 
 ```py
@@ -2834,7 +2778,6 @@ Braces? No way! If you think that's disappointing, use Java. Okay, another surpr
 ---
 
 ### ▶ Let's meet Friendly Language Uncle For Life
-<!-- Example ID: 6427fae6-e959-462d-85da-ce4c94ce41be --->
 **Вывод (Python 3.x)**
 ```py
 >>> from __future__ import barry_as_FLUFL
@@ -2864,13 +2807,12 @@ There we go.
 
 ---
 
-### ▶ Even Python understands that love is complicated
-<!-- Example ID: b93cad9e-d341-45d1-999c-fcdce65bed25 --->
+### ▶ Даже Python понимает, что любовь это сложно
 ```py
 import this
 ```
 
-Wait, what's **this**? `this` is love :heart:
+Подождите, что за **this**? `this` is love :heart:
 
 **Вывод:**
 ```
@@ -2897,7 +2839,7 @@ If the implementation is easy to explain, it may be a good idea.
 Namespaces are one honking great idea -- let's do more of those!
 ```
 
-It's the Zen of Python!
+Это дзен Python!
 
 ```py
 >>> love = this
@@ -2909,20 +2851,19 @@ False
 False
 >>> love is not True or False
 True
->>> love is not True or False; love is love  # Love is complicated
+>>> love is not True or False; love is love  # Любовь это сложно
 True
 ```
 
 #### 💡 Объяснение:
 
-* `this` module in Python is an easter egg for The Zen Of Python ([PEP 20](https://www.python.org/dev/peps/pep-0020)).
+* Модуль `this`  в Python это пасхался для дзена Python ([PEP 20](https://www.python.org/dev/peps/pep-0020)).
 * And if you think that's already interesting enough, check out the implementation of [this.py](https://hg.python.org/cpython/file/c3896275c0f6/Lib/this.py). Interestingly, **the code for the Zen violates itself** (and that's probably the only place where this happens).
 * Regarding the statement `love is not True or False; love is love`, ironic but it's self-explanatory (if not, please see the examples related to `is` and `is not` operators).
 
 ---
 
 ### ▶ Yes, it exists!
-<!-- Example ID: 4286db3d-1ea7-47c9-8fb6-a9a04cac6e49 --->
 **The `else` clause for loops.** One typical example might be:
 
 ```py
@@ -2966,7 +2907,6 @@ Try block executed successfully...
 
 ---
 ### ▶ Ellipsis *
-<!-- Example ID: 969b7100-ab3d-4a7d-ad7d-a6be16181b2b --->
 ```py
 def some_func():
     Ellipsis
@@ -3026,7 +2966,6 @@ Ellipsis
 ---
 
 ### ▶ Inpinity
-<!-- Example ID: ff473ea8-a3b1-4876-a6f0-4378aff790c1 --->
 The spelling is intended. Please, don't submit a patch for this.
 
 **Вывод (Python 3.x):**
@@ -3045,7 +2984,6 @@ The spelling is intended. Please, don't submit a patch for this.
 ---
 
 ### ▶ Let's mangle
-<!-- Example ID: 37146d2d-9e67-43a9-8729-3c17934b910c --->
 1\.
 ```py
 class Yo(object):
@@ -3122,8 +3060,7 @@ AttributeError: 'A' object has no attribute '__variable'
 
 ## Секция: Appearances are deceptive!
 
-### ▶ Skipping lines?
-<!-- Example ID: d50bbde1-fb9d-4735-9633-3444b9d2f417 --->
+### ▶ Пропуск строчек?
 **Вывод:**
 ```py
 >>> value = 11
@@ -3132,46 +3069,45 @@ AttributeError: 'A' object has no attribute '__variable'
 11
 ```
 
-Wut?
+Что случилсь?
 
-**Примечание:** The easiest way to reproduce this is to simply copy the statements from the above snippet and paste them into your file/shell.
+**Примечание:** Самый просой способ воспроизвести это поведение - скопировать выражения выше и вставить их в свой интерпретатор или скрипт.
 
 #### 💡 Объяснение:
 
-Some non-Western characters look identical to letters in the English alphabet but are considered distinct by the interpreter.
+Некоторые символы выглядят идентично буквам английского алфавита, но интерпретатор видит разницу.
 
 ```py
->>> ord('е') # cyrillic 'e' (Ye)
+>>> ord('е') # Кириллическая буква 'e'
 1077
->>> ord('e') # latin 'e', as used in English and typed using standard keyboard
+>>> ord('e') # Латинская буква 'e', используемая стндартной клавиатурой
 101
 >>> 'е' == 'e'
 False
 
->>> value = 42 # latin e
->>> valuе = 23 # cyrillic 'e', Python 2.x interpreter would raise a `SyntaxError` here
+>>> value = 42 # Латинская 'e'
+>>> valuе = 23 # Кириллическая 'e', интерпретатор Python версии 2.x выдаст ошибку `SyntaxError`
 >>> value
 42
 ```
 
-The built-in `ord()` function returns a character's Unicode [code point](https://en.wikipedia.org/wiki/Code_point), and different code positions of Cyrillic 'e' and Latin 'e' justify the behavior of the above example.
+Встроенная функция `ord()` возвращает Unicode [code point](https://en.wikipedia.org/wiki/Code_point) для символа. Различные значения для латинской и криллической букв подтверждают поведение примера.
 
 ---
 
-### ▶ Teleportation
+### ▶ Телепорт
 
-<!-- Example ID: edafe923-0c20-4315-b6e1-0c31abfc38f5 --->
 
 ```py
 # `pip install numpy` first.
 import numpy as np
 
 def energy_send(x):
-    # Initializing a numpy array
+    # Инициализация массива numpy
     np.array([float(x)])
 
 def energy_receive():
-    # Return an empty numpy array
+    # Возвращаем пустой numpy массив
     return np.empty((), dtype=np.float).tolist()
 ```
 
@@ -3182,7 +3118,7 @@ def energy_receive():
 123.456
 ```
 
-Where's the Nobel Prize?
+Ждём Нобелевскую премию?
 
 #### 💡 Объяснение:
 
@@ -3192,7 +3128,6 @@ Where's the Nobel Prize?
 ---
 
 ### ▶ Well, something is fishy...
-<!-- Example ID: cb6a37c5-74f7-44ca-b58c-3b902419b362 --->
 ```py
 def square(x):
     """
@@ -3236,7 +3171,6 @@ Shouldn't that be 100?
 
 
 ### ▶ `+=` is faster
-<!-- Example ID: bfd19c60-a807-4a26-9598-4912b86ddb36 --->
 
 ```py
 # using "+", three strings:
@@ -3253,7 +3187,6 @@ Shouldn't that be 100?
 ---
 
 ### ▶ Let's make a giant string!
-<!-- Example ID: c7a07424-63fe-4504-9842-8f3d334f28fc --->
 ```py
 def add_string_with_plus(iters):
     s = ""
@@ -3323,10 +3256,10 @@ Let's increase the number of iterations by a factor of 10.
 ```
 
 #### 💡 Объяснение:
-- You can read more about [timeit](https://docs.python.org/3/library/timeit.html) or [%timeit](https://ipython.org/ipython-doc/dev/interactive/magics.html#magic-timeit) on these links. They are used to measure the execution time of code pieces.
-- Don't use `+` for generating long strings — In Python, `str` is immutable, so the left and right strings have to be copied into the new string for every pair of concatenations. If you concatenate four strings of length 10, you'll be copying (10+10) + ((10+10)+10) + (((10+10)+10)+10) = 90 characters instead of just 40 characters. Things get quadratically worse as the number and size of the string increases (justified with the execution times of `add_bytes_with_plus` function)
-- Therefore, it's advised to use `.format.` or `%` syntax (however, they are slightly slower than `+` for very short strings).
-- Or better, if already you've contents available in the form of an iterable object, then use `''.join(iterable_object)` which is much faster.
+- Вы можете узнать больше про [timeit](https://docs.python.org/3/library/timeit.html) или [%timeit](https://ipython.org/ipython-doc/dev/interactive/magics.html#magic-timeit) по этим ссылкам. Они используются для замеров времени выполняемого кода.
+- Не используйте  `+` для генерации длинных строк. В питоне, тип  `str` является неизменяемым, поэтому левая и правая строка копируются в новуб объединённую для каждой новой пары конкатенируемых строк. Если вы скаладываете 4 строки длиной в 10 символов, копирование символо произойдёт (10+10) + ((10+10)+10) + (((10+10)+10)+10) = 90 раз, вместо оптимальных 40 раз. Сложность возрастает с квадратической зависимостью от количества строк и их длины. (Это подтверждается временем выполнения функции `add_bytes_with_plus`)
+- Следовательно, лучше использовать  `.format.` или синтаксис `%` (Однако для очень коротких строк они медленее, чем конкатенация через  `+`).
+- Ещё лучше, если склеиваемые строки уже доступны Or better, if already you've contents available in the form of an iterable object, then use `''.join(iterable_object)` which is much faster.
 - Unlike `add_bytes_with_plus` because of the `+=` optimizations discussed in the previous example, `add_string_with_plus` didn't show a quadratic increase in execution time. Had the statement been `s = s + "x" + "y" + "z"` instead of `s += "xyz"`, the increase would have been quadratic.
   ```py
   def add_string_with_plus(iters):
@@ -3347,7 +3280,6 @@ Let's increase the number of iterations by a factor of 10.
 ---
 
 ### ▶ Minor Ones *
-<!-- Example ID: f885cb82-f1e4-4daa-9ff3-972b14cb1324 --->
 * `join()` is a string operation instead of list operation. (sort of counter-intuitive at first usage)
 
   **💡 Объяснение:** If `join()` is a method on a string, then it can operate on any iterable (list, tuple, iterators). If it were a method on a list, it'd have to be implemented separately by every type. Also, it doesn't make much sense to put a string-specific method on a generic `list` object API.
